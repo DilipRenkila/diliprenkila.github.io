@@ -1,10 +1,36 @@
 ---
 layout: post
-title:  "LSTMx in Tensorflow"
+title:  "Sentiment Analysis using Word Vectors"
 date:   2017-12-16 16:26:15 +0100
-categories: LSTM Tensorflow RNN
+categories: sentiment analysis wordvectors
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+
+This is my first blog post in the field of NLP. This post is a explanatory solution for the Sentiment Analysis problem set of cs224n course(NLP using deep learning)http://web.stanford.edu/class/cs224n/assignment1/assignment1.pdf.
+
+The exacty problem is "For each sentence in the Stanford Sentiment Treebank dataset, we are going to use the average of all the word vectors in that sentence as its feature, and try to predict the sentiment level of the said sentence. The sentiment
+
+
+Sentiment Analysis is a kind of Classification problem and which means we have to classify each input within a group of labels.
+
+Use the Stanford Sentiment Analysis Treebank as a dataset. Download the dataset
+
+
+$ wget http://nlp.stanford.edu/~socherr/stanfordSentimentTreebank.zip
+
+
+This dataset includes:
+
+1. original_rt_snippets.txt contains 10,605 comments from Rotten Tomatoes. Note that some snippets may contain multiple sentences.
+
+2. dictionary.txt contains all phrases and their IDs, separated by a vertical line "|"
+
+3. sentiment_labels.txt contains phrase id and their respective sentiment strengths.
+
+
+
+
+
+You’ll find this pgit ost in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
