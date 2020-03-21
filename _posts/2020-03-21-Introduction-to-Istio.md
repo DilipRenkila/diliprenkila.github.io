@@ -1,13 +1,16 @@
-When applications are broken into small chunks to simplify development, deployment, updates, and scaling, you end up with more responsibility to look after than before. Let's look at a simple e-commerce application
+**What is Istio?**
+When applications are broken into small chunks to simplify development, deployment, updates, and scaling, you end up with more responsibility to look after than before.
 
 
 Luckily, developers now have access to a tool called Istio, an open source service mesh, to help address these challenges before it becomes a bit of a mess.
-What is a Service Mesh?
+
+**What is a Service Mesh?**
 
 In a microservice architecture, a service mesh is a term that is used to describe a network of microservices that make up an application and interactions they have between them. As soon as a service mesh grows in size and complexity, which it will since you will add new features and functionalities over time, it becomes harder to manage and understand.
 
 A service mesh often has complex operational requirements which include A/B testing, canary releases, access control, and rate limiting. These are in addition to its standard requirements of load balancing, discovering, failure recovery, end-to-end authentication, monitoring, and metrics.
-How is a Service Mesh Different to an API Gateway?
+
+**How is a Service Mesh Different to an API Gateway?**
 
 A question that I get asked a lot when I talk to people about service mesh is, “How is a service mesh different to an API gateway?”. And it’s a good question.
 
@@ -77,4 +80,3 @@ At BoxBoat, We know Istio
 
 Istio helps streamline traffic management, security, and observability issues—all common obstacles when it comes to building and scaling a microservice architecture.
 
-If you need support on how to set up and run Istio, BoxBoat can help!
