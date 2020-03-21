@@ -1,4 +1,13 @@
+
+**The basics: Service Mesh and API Gateway**
+
+The main purpose of using **API Gateway** is to expose microservices as managed api to external systems. 
+
+
 **What is Istio?**
+
+
+
 When applications are broken into small chunks to simplify development, deployment, updates, and scaling, you end up with more responsibility to look after than before.
 
 
